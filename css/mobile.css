@@ -1,0 +1,244 @@
+
+.showcase .container .grid .items {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 0.5rem;
+  
+  }
+  
+  
+  
+  .showcase .container .grid .items .box-1 .item-inner {
+    margin: 1.5rem 0;
+    
+    }
+
+
+  .showcase .container .grid .items .box-2 .item-inner img {
+    
+    height: 200px;
+    
+    }
+  
+  
+  .box-1 .container h4, p, .box-2 .container, .box-3 .container h4, p {
+  
+    font-size:x-large;
+    font-weight: bold;
+  
+  }
+
+
+
+  .container .rows {
+    display: block;
+    grid-gap: 5px;
+    text-align: center;
+    justify-content: center;
+    margin:  20px auto;
+    
+    }
+    
+  
+    
+    
+    .text-fade-white div img {
+      margin-top: 50px;
+    }
+    
+    
+    
+    .movers {
+      background-color: var(--black-color);
+      width: 300px;
+      margin-top: 2rem;
+    }
+    
+    
+    
+    .mover {
+      z-index: 1;
+    }
+    
+    .movers .mover {
+      margin-top: 50px;
+      color: var(--white-color);
+      /* height: 300px; */
+      
+    }
+    
+    
+    
+    
+    
+    .section-team .grid .items {
+
+      display: grid;
+      grid-template-columns: 1fr;
+      
+    }
+    
+    
+    .section-team .grid .items .text-cl {
+      margin: 15px auto;
+      max-width: 430px;
+    }
+    
+    .section-team .grid .dot {
+      display: none;
+      
+    }
+    
+    .container .jumbotron .row-rate {
+      display: grid;
+      grid-template-columns: 1fr;
+      
+    }
+    
+    .container .row-rate .card {
+      height: 360px !important;
+    
+    }
+    
+    
+    
+    .container .row-rate .card {
+      height: 430px !important;
+      width: 250px !important;
+      box-shadow: 0 2px 5px 0;
+      border: 0;
+    
+    }
+    
+    
+    .what .items {
+      display: block;
+      padding: 1rem;
+      grid-gap: 5px;
+      margin: 20px auto;
+     
+    
+    }
+    
+    .text-orange {
+      background-color: #ffb836;
+      height: 800px;
+    
+    }
+    
+    
+    .section-how-it-work .container .ct-col  {
+      text-align: center;
+      width: 500px;
+    
+    }
+    
+    
+    
+    .How-those-work .items {
+      display: block;
+      padding: 1rem;
+      grid-gap: 10rem;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    
+    }
+    
+    .How-those-work .text-p h4 {
+      text-align: center;
+    }
+    
+    .item-img img {
+      width: 400px;
+      font-weight: bold;
+      font-size: x-large;
+    }
+    
+    .How-those-work .items .vl {
+      display: none;
+    }
+    
+    
+    
+    .paid-section .container {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    
+    .paid-section {
+      width: 500px;
+    }
+    
+    
+    
+    .visual-section  {
+      opacity: 0.9;
+      background-color: rgba(0, 0, 0, 0.8);
+      background-color: transparent rgba(0, 0, 0, 0.8);
+      color: #fff;
+    }
+    
+    .visual-section .inner-container {
+      display: block;
+      padding: 0 10rem;
+      align-items: center;
+      justify-content: center;
+      z-index: 1;
+    
+    }
+    
+    .visual-section .inner-container h2, 
+    .visual-section .inner-container h4 {
+    color: var(--white-color);
+    
+    }
+    
+    .visual-section .inner-container >*:nth-child(1) {
+
+      padding-left: 10px;
+      
+      }
+    
+    .visual-section img {
+      visibility: hidden;
+    }
+    
+    
+    .community-section .container {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 0.5rem;
+      
+  
+     
+    }
+    
+    .community-section .container > * {
+      margin-top: 1.5rem;
+      max-width: 200px;
+    }
+    
+    .community-section .container h5 {
+    padding-top: 1rem !important;
+    
+    }
+    
+    
+    #main-footer .footer-container {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 1.5rem;
+    }
+    
+    
+    #main-footer .footer-container > *:last-child {
+      grid-column: 1;
+      font-size: 0.5rem;
+    }
+    
+    #main-footer .footer-container .p-text, h3, ul li, .social-links, .app-store {
+      text-align: center;
+      
+      }
+     
